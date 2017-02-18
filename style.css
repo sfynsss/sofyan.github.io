@@ -1,0 +1,104 @@
+*{margin:0px; padding:0px}
+header, footer,section,nav{display:blocks}
+body{background:url(http://w3function.com/images/bg_body.jpg)}
+.container{margin:0 auto; width:980px;font-family:arial;margin-top:20px}
+h1, h2 {color: #333;
+font-family: Helvetica,Arial;
+font-weight: bold;
+line-height: 1.1em;
+padding-bottom: 5px;
+text-shadow: 0 1px 0 #FFF;
+font-size: 28px;}
+
+h2 a{
+color: #333;
+text-decoration:none;	
+}
+h2 a:hover{
+color: #009900;
+text-decoration:none;	
+}
+
+.roundEdge
+{border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;}
+
+
+#main, #header, #nav
+{
+overflow:auto;
+}
+#nav{background-color:#555}
+
+#footer
+{
+height:40px;
+border-top:3px solid #333333;
+}
+#footer p
+{
+	padding:20px 0px 20px 0px;
+	font-size:12px;
+}
+
+#content
+{
+    float:left;
+    width:640px;
+
+}
+#content article
+{
+margin-bottom:20px;
+}
+
+#sidebar
+{
+    float:right;
+    width:320px;
+	background-color:#dedede;
+	min-height:400px;
+	text-align:center;
+}
+
+#nav
+{
+overflow:auto;
+}
+#nav ul
+{
+list-style:none;
+height:30px;
+padding:0px;
+margin:0px;
+}
+#nav ul li
+{
+float:left;
+
+font-size:12px;
+font-weight:bold;
+}
+
+
+#nav ul li a
+{
+color:#ffffff;text-decoration:none;display:block;padding:12px;text-align:center;min-width:100px;
+}
+#nav ul li a:hover
+{
+
+	background-color:#339900;
+	color:#FFF;
+}
+
+#logo
+{
+	margin:10px;
+}
+
+#ads
+{
+	text-align:center;
+}
